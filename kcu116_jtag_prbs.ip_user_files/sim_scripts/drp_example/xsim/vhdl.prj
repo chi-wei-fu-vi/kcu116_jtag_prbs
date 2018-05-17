@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/drp_example/ip/drp_example_proc_sys_reset_0_0/sim/drp_example_proc_sys_reset_0_0.vhd" \
+
+nosort

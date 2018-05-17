@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x773490D72368D4E8" bd:bdsource="SBD" bd:device="xcku5p-ffvb676-2-e" bd:isScoped="true" bd:isValidated="true" bd:synthFlowMode="None" bd:tool_version="2018.1" bd:top="bd_aaba" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>bd_aaba</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:busInterfaces>
+      <spirit:busInterface>
+        <spirit:name>SLOT_0_DRP</spirit:name>
+        <spirit:monitor/>
+        <spirit:busType spirit:library="interface" spirit:name="drp" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="drp_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DO</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_0_DRP_do</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DI</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_0_DRP_di</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DEN</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_0_DRP_den</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DWE</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_0_DRP_dwe</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DRDY</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_0_DRP_drdy</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DADDR</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_0_DRP_daddr</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>SLOT_1_DRP</spirit:name>
+        <spirit:monitor/>
+        <spirit:busType spirit:library="interface" spirit:name="drp" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="drp_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DO</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_1_DRP_do</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DI</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_1_DRP_di</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DEN</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_1_DRP_den</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DWE</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_1_DRP_dwe</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DRDY</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_1_DRP_drdy</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DADDR</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_1_DRP_daddr</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>SLOT_2_DRP</spirit:name>
+        <spirit:monitor/>
+        <spirit:busType spirit:library="interface" spirit:name="drp" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="drp_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DO</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_2_DRP_do</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DI</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_2_DRP_di</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DEN</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_2_DRP_den</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DWE</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_2_DRP_dwe</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DRDY</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_2_DRP_drdy</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DADDR</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_2_DRP_daddr</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>SLOT_3_DRP</spirit:name>
+        <spirit:monitor/>
+        <spirit:busType spirit:library="interface" spirit:name="drp" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="drp_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DO</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_3_DRP_do</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DI</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_3_DRP_di</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DEN</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_3_DRP_den</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DWE</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_3_DRP_dwe</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DRDY</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_3_DRP_drdy</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>DADDR</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>SLOT_3_DRP_daddr</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>CLK.CLK</spirit:name>
+        <spirit:displayName>Clk</spirit:displayName>
+        <spirit:description>Clock</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="clock" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="clock_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>CLK</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>clk</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>FREQ_HZ</spirit:name>
+            <spirit:value>100000000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>PHASE</spirit:name>
+            <spirit:value>0.0</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default_prop"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>CLK_DOMAIN</spirit:name>
+            <spirit:value>drp_example_clk_wiz_2_0_clk_out1</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default_prop"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+    </spirit:busInterfaces>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="bd_aaba_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>clk</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>probe0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>0</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_0_DRP_do</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_0_DRP_di</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_0_DRP_den</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_0_DRP_dwe</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_0_DRP_drdy</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_0_DRP_daddr</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>6</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_1_DRP_do</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_1_DRP_di</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_1_DRP_den</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_1_DRP_dwe</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_1_DRP_drdy</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_1_DRP_daddr</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>6</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_2_DRP_do</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_2_DRP_di</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_2_DRP_den</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_2_DRP_dwe</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_2_DRP_drdy</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_2_DRP_daddr</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>9</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_3_DRP_do</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_3_DRP_di</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_3_DRP_den</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_3_DRP_dwe</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_3_DRP_drdy</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>SLOT_3_DRP_daddr</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+            <spirit:vector>
+              <spirit:left>9</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>bd_aaba_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>ila_lib</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="ila" spirit:vendor="xilinx.com" spirit:version="6.2"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">bd_aaba_ila_lib_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE24_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE23_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE22_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE21_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE20_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE19_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE18_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE17_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE16_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE15_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE14_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE13_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE12_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE11_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE10_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE9_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE8_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE7_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE6_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE5_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE4_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE3_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE2_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE1_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE0_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE24_WIDTH">10</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE23_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE22_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE21_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE20_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE19_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE18_WIDTH">10</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE17_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE16_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE15_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE14_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE13_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE12_WIDTH">7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE11_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE10_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE9_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE8_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE7_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE6_WIDTH">7</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE5_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE4_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE3_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE2_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE1_WIDTH">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE0_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_DATA_DEPTH">1024</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_NUM_OF_PROBES">25</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_XLNX_HW_PROBE_INFO">DEFAULT</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_TRIGOUT_EN">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_EN_STRG_QUAL">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_EN_TIME_TAG">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_TIME_TAG_WIDTH">32</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_INPUT_PIPE_STAGES">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_ILA_CLK_FREQ">100000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_ADV_TRIGGER">FALSE</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE0_MU_CNT">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_TRIGIN_EN">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ALL_PROBE_SAME_MU">TRUE</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ALL_PROBE_SAME_MU_CNT">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_MONITOR_TYPE">Native</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>clk_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="clk"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>probe0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="probe0"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_0_DRP_do_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_0_DRP_do"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_0_DRP_di_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_0_DRP_di"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_0_DRP_den_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_0_DRP_den"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_0_DRP_dwe_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_0_DRP_dwe"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe4"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_0_DRP_drdy_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_0_DRP_drdy"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe5"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_0_DRP_daddr_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_0_DRP_daddr"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe6"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_1_DRP_do_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_1_DRP_do"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe7"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_1_DRP_di_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_1_DRP_di"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe8"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_1_DRP_den_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_1_DRP_den"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe9"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_1_DRP_dwe_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_1_DRP_dwe"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe10"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_1_DRP_drdy_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_1_DRP_drdy"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe11"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_1_DRP_daddr_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_1_DRP_daddr"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe12"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_2_DRP_do_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_2_DRP_do"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe13"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_2_DRP_di_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_2_DRP_di"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe14"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_2_DRP_den_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_2_DRP_den"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe15"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_2_DRP_dwe_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_2_DRP_dwe"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe16"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_2_DRP_drdy_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_2_DRP_drdy"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe17"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_2_DRP_daddr_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_2_DRP_daddr"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe18"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_3_DRP_do_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_3_DRP_do"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe19"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_3_DRP_di_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_3_DRP_di"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe20"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_3_DRP_den_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_3_DRP_den"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe21"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_3_DRP_dwe_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_3_DRP_dwe"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe22"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_3_DRP_drdy_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_3_DRP_drdy"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe23"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>SLOT_3_DRP_daddr_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="SLOT_3_DRP_daddr"/>
+        <spirit:internalPortReference spirit:componentRef="ila_lib" spirit:portRef="probe24"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+    <spirit:hierConnections/>
+  </spirit:design>
+
+</bd:repository>
